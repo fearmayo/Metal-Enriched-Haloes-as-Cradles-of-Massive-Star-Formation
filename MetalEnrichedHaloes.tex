@@ -66,7 +66,7 @@
 \def\etal{{\it et al.}~}
 
 \begin{document}
-\title{Metal Enriched Haloes as hosts of Massive Star Formation}
+\title{Massive Star Formation in Metal Enriched Haloes at High Redshift}
 \author[J. A. Regan, Z. Haiman, J. H. Wise, B.W. O'Shea \&  M.L. Norman]{John A. Regan$^{1}$\thanks{E-mail:john.regan@mu.ie}, Zoltan Haiman$^{2}$,
   John H. Wise$^{3}$, Brian W. O'Shea$^{4,5,6,7}$ \newauthor \& Michael L. Norman$^8$\\
   $^1$Department of Theoretical Physics, Maynooth University, Ireland\\
@@ -108,7 +108,7 @@
 Super-massive black holes (SMBHs) with masses exceeding $10^{9}$ \msolar have long being known to
 exist at high redshift \citep[e.g.][]{Fan_2001, Dietrich_2002, Fan_2003, Vestergaard_2004,
   Fan_2004, Fan_06}.
-The number of quasars, powered by SMBHs, at $z > 6$ now exceeds 200 and their number
+The number of quasars, powered by SMBHs, at $z > 6$ now exceeds 200 \citep[e.g][]{Matsuoka_2019} and their number
 density is estimated to be approximately 1 Gpc$^{-3}$. These 200 or so observed quasars probably
 represent the tip of the iceberg with many more quasars of lower luminosity (and hence perhaps mass)
 lurking below the observational threshold of current telescopes. \\
@@ -117,7 +117,7 @@ has posed a significant challenge to our understanding of the formation and grow
 Black holes are believed to form as the end point of massive stars (see for example
 \cite{Volonteri_2010a} and references therein). The seed black hole may then grow through the
 accretion of gas or through mergers with other black holes. The significant challenge in this
-scenario is that SMBHs with masses of up to $10^{10}$ \msolar exist \citep{Wu_2015} already when
+scenario is that SMBHs with masses of up to $10^{9}$ \msolar exist \citep[e.g][]{Banados_2018} already when
 the Universe was less than 1 billion years old. Our current understanding of black hole accretion
 therefore makes these observations difficult to interpret. Three mainstream scenarios have
 emerged over the past two decades in an attempt to understand the origin of high-z SMBHs. \\
@@ -212,9 +212,9 @@ by a succession of minor and major mergers \citep{Yoshida_2003a, Fernandez_2014,
   \cite{Chon_2020}. They used high-resolution smoothed particle hydrodynamics simulations to
   show that even in cases where the gas metallicity is up to $Z \sim 10^{-3}$ \zsolar that
   SMSs can still form. \cite{Chon_2020} showed that the pathway to formation varies
-  somewhat between the purely metal-free case ($Z \lesssim 5 \times 10^{-5}$ \zsolarc) and the
-  metal enriched
-  case  ($Z \gtrsim 10^{-3}$ \zsolarc) but that the end result remains the same - the formation
+  somewhat between the purely metal-free case ($Z < 1 \times 10^{-6}$ \zsolarc) and the extremely metal-poor
+  case  ($10{-6} <  Z < 10^{-3}$ \zsolarc). They found that as the 
+  metallicity approached the upper limit here that SMS formation was prevented but that at $Z < 10^{-4}$ \zsolar the end result remains the same - the formation
   of a massive central object with average accretion rates of approximately 0.1 \msolaryrc.
   Taking these results into account we therefore examine the Renaissance datasets looking
   for the highest infall haloes across all outputs while also examining their metallicities. 
@@ -258,7 +258,12 @@ rarer than the \normal region).
 The \rarepeak regions contained
 822 galaxies with masses larger than $10^9$ \msolar at z = 15, the \normal region contained 758
 such galaxies at z = 11.6, while the \void region contained 458 such galaxies at z = 8.
-In this study we examine only the \rarepeak and \normal regions.
+In this study we examine only the \rarepeak and \normal regions. The 
+\void region is not studied here as this region is not expected to 
+host a large number of high-infall haloes. In out previous work
+\citep{Wise_2019, Regan_2019} the void region was found to be devoid of metal-free and star-free atomic cooling haloes as infall rates
+did not support their formation. For this reason we excluded the 
+\void region from study here. 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE 2 (Hexbins)%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure*}
 \centering
@@ -481,7 +486,7 @@ and metal poor haloes in Figure \ref{Fig:Histogram}.
 
 \end{figure*}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Halo Ratios}
+\subsection{The abundance of metal-free, extremely metal-poor and metal-poor haloes}
 In Figure \ref{Fig:Histogram} we show the cumulative number of haloes with infall rates greater than
 the given value on the x-axis. The x-axis runs from $\dot{M}(R) = 10^{-4}$ \msolaryr to 
 $\dot{M}(R) = 10^{1}$ \msolaryrc. As the plot runs from left to right the number of haloes with a
@@ -519,7 +524,7 @@ region when considering haloes with mass infall rates, $\dot{M} > 0.1 $ \msolary
 
 
 \subsection{The Highest Accretors}
-\indent We next assess the ten highest accreting haloes in each region. In Figure
+\indent We next assess the ten highest accreting haloes, independent of metallicity, in each region. In Figure
 \ref{Fig:RadialProfiles} we plot the radial profiles of each of the highest accreting haloes.
 %Haloes are excluded from the plot if they have undergone a recent supernovae explosion or other
 %feedback processes which make computing a mass infall rate 
@@ -573,16 +578,20 @@ single most important criteria for the formation of a SMS \citep{Hosokawa_2013, 
   Woods_2018}. Therefore, we examine the Renaissance datasets for haloes which are experiencing
 rapid gas inflow in their centres. While, rapid gas inflow to the halo centre does not guarantee
 that a SMS will ultimately form it is however very likely to be a necessary condition. \\
-\indent Previous investigations of SMS candidate haloes have almost universally focused on
+\indent Previous investigations of SMS candidate haloes\footnote{These haloes are also often
+  referred to as "direct collapse black hole" haloes in the literature as well due to the fact
+  that the high in-fall rates lead to massive black hole and no 
+  supernova event. However, current research indicates that the intermediary stage involves a
+  SMS and hence we use that terminology here.} have almost universally focused on
 metal-free haloes in which the equation of state of the gas was determined by the gas phase
 cooling mechanisms of hydrogen and helium. Here, we extend the analysis to haloes that are both
 metal-poor and metal-enriched. If the number of haloes that support SMS formation can be extended to
-include also (some of) these haloes which are metal enriched (at least perhaps up to some
-metallicity or due to metal enrichment inhomogeneity) then the
-number density of candidate direct collapse black hole seeds will increase accordingly and so is of
-immense interest to the community. Previous direct collapse black hole number densities have
-tended to show that when including metal-free haloes only  that the number of direct collapse
-black holes may be either insufficient or just sufficient to explain the number of density of
+include also these haloes which are metal enriched (at least perhaps up to some metallicity or
+due to metal enrichment inhomogeneity) then the
+number density of candidate SMS host haloes will increase accordingly and so is of
+immense interest to the community. Previous SMS candidate halo number densities have
+tended to show that when including metal-free haloes only that the number of SMS candidate
+haloes may be either insufficient or just sufficient to explain the number of density of
 high-z quasars \citep{Agarwal_2012, Visbal_2014b, Agarwal_2015b, Latif_2014a,
   Valiante_2016, Habouzit_2016, Valiante_2017, Habouzit_2017, Regan_2017}. \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE 7%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
