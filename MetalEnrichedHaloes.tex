@@ -140,7 +140,7 @@ are unable to grow efficiently and suffer accretion rates orders of magnitudes b
 rate until its host halo is replenished with gas. 
 Likewise, growing these black holes via mergers is difficult, due to the gravitational-wave recoil which tends to eject the merger remnant from the shallow potential of their host halo~\citep{Haiman_2004}.
 It would seem that only in the cases where these 
-black holes can grow at rates significant
+black holes can grow at rates significantly
 exceeding the Eddington limit can these black holes reach sufficiently high masses. While extended episodes of modestly 
 super-Eddington accretion \citep{Madau_2001, Madau_2014, Alexander_2014,
   Lupi_2016}, as well as shorter episodes of hyper-Eddington accretion~\citep{Inayoshi_2018} remain physically viable, it is unclear how often they are realised in nature with a sufficient duty cycle~\citep{Pacucci_2017}.
@@ -244,8 +244,7 @@ adaptive mesh refinement code \enzo\citep{Enzo_2014, Enzo_2019}\footnote{https:/
 particular \enzo includes a ray-tracing scheme to follow the propagation of radiation from star
 formation and
 black hole formation \citep{WiseAbel_2011} as well as a detailed multi-species chemistry model that
-tracks the formation and evolution of nine species \citep{Anninos_1997, Abel_1997, Grackle}. In
-particular the photo-dissociation of \molH is followed, which is a critical ingredient for
+tracks the formation and evolution of nine species \citep{Anninos_1997, Abel_1997, Grackle}. Additionally the photo-dissociation of \molH is followed, which is a critical ingredient for
 determining the formation of the first metal-free stars \citep{Abel_2000}. 
 
 The datasets used in this study were originally derived from a simulation of the universe in a (28.4
@@ -274,7 +273,7 @@ size and overdensity of the \rarepeak are expected to be found in approximately 
 of the volume of the Universe \citep{Wise_2019}. Therefore, any results from the
 \rarepeak region need to be viewed in the context of the region being rare ($\sim 10^3 - 10^4$ times rarer than the \normal region).
 The \rarepeak regions contains 822 galaxies with masses larger than $2 \times 10^7$ \msolar
-at $z = 15$, the \normal region contains 58 such galaxies at $z = 11.6$, while the \void region
+at $z = 15$, the \normal region contains 758 such galaxies at $z = 11.6$, while the \void region
 contains 458 such galaxies at $z = 8$. In this study, we examine only the \rarepeak and \normal
 regions. The \void region is not studied here as it is not expected to 
 host a significant number of high-infall rate haloes. In our previous work
@@ -364,7 +363,7 @@ adopt the calibration of
 limit from \cite{Fernandez_2014},
 %
 \begin{equation}
-  M_{\rm atm} = 2 \times 10^{7} \left( \frac{{T_{\rm vir}}}{10^4~{\rm K}}  \frac{21}{1+z} \right)^{1.5} \rm{M_{\odot}},
+  M_{\rm atm} = 2 \times 10^{7} \left( \frac{{T_{\rm vir}}}{10^4~{\rm K}}  \frac{21}{1+z} \right)^{-1.5} \rm{M_{\odot}},
 \end{equation}
 %
 where $z$ is the redshift and $T_{\rm vir}$ is the virial temperature of the halo. 
@@ -450,7 +449,7 @@ include green circles on the plot to indicate haloes which are metal-free and st
 Some results are immediately clear from a comparison of the panels in Figure~\ref{Fig:Scatter}. The \rarepeak region clearly has significantly more haloes that have lower
 metallicities (and/or are metal-free) and it also has more haloes
 with high infall rates. Nonetheless, while there are a number of high mass infall-rate,
-metal-poor haloes in the \rarepeak region - the highest mass infall-rate halo is in fact metal-enriched,
+EMP and metal-free haloes in the \rarepeak region - the highest mass infall-rate halo is in fact metal-enriched,
 and there are comparable numbers of high infall-rate haloes which are both metal-enriched and metal-free.
 The metal-free and star-free haloes (green circles) show a strong scatter and are not preferentially
 rapid accretors. However, the metal-free and star-free haloes do populate the lower-temperature parts of the
@@ -496,7 +495,7 @@ high mass infall-rate, metal enriched haloes. Some of these haloes could potenti
 %ZH: I added "e.g." and comment here (key is there extrapolated inflow rate closer to r=0, and I am not sure that it's entirely controlled by metallicity)
 provided the infall rate does not significantly decrease further inward; 
 e.g. if the metal mixing within the halo is inhomogeneous. We will discuss this point further in \S
-\ref{Sec:Discussion}. First we quantify the relative abundance of metal-enriched, extremely metal-poor
+\ref{Sec:Discussion}. First we quantify the relative abundance of metal-free, extremely metal-poor
 and metal-enriched haloes in Figure \ref{Fig:Histogram}.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE 6%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure*} 
@@ -550,7 +549,7 @@ number of metal enriched haloes grow compared to
 metal-poor haloes. If we allow all haloes (independent of metallicity) with mass infall rates greater
 than  0.1 \msolaryr to be super-massive star candidates then the number of candidate haloes can
 increase by a factor of two compared to the metal-free case and more in the \normal region as we
-shall now see. We will come back to this point in \S \ref{Sec:Discussion} below. \\
+shall now see. We will return to this point in \S \ref{Sec:Discussion} below. \\
 \indent In the right panel of Figure~\ref{Fig:Histogram},
 we show the same histogram for the \normal region. In this case there is only a single metal-free halo
 with a mass infall rate greater than 1 \msolaryr and only three metal-enriched haloes for the
@@ -715,12 +714,12 @@ further investigation. Furthermore, such high-infall rate haloes may support the
 black holes. \\
 %ZH: I made some tweaks to this concluding paragraph:
 \indent Additional high-resolution hydrodynamic simulations will be required to
-determine the fraction of metal-enriched haloes which can support SMS formation, and, in particular, whether the accretions rates in the cores remain sufficiently high.  This could occur if pockets of metal-poor gas in these cores of these haloes remain, allowing rapid accretion and supporting SMS formation. There are clear
+determine the fraction of metal-enriched haloes which can support SMS formation, and, in particular, whether the accretions rates in the cores remain sufficiently high.  This could occur if pockets of metal-poor gas in the cores of these haloes remain, allowing rapid accretion and supporting SMS formation. There are clear
 indications form our analysis of the radial metallicity profiles (see Figure \ref{Fig:RadialProfiles}) that
 metal mixing decreases strongly towards the halo centre. If this mixing inefficiency persists to smaller radii,
-then metal inhomogenitety may be common in the cores of these young protogalaxies. The galaxies studied here are
+then metal inhomogenitety may be common in the cores of these young proto-galaxies. The galaxies studied here are
 embryonic and have had very few dynamical times in which 
-gas mixing can take place and hence extremely metal-poor pockets are much more likely than in more mature and evolved protogalaxies.\\
+gas mixing can take place and hence extremely metal-poor pockets are much more likely than in more mature and evolved proto-galaxies.\\
 \indent  The addition of metal-enriched haloes to the number density of SMS
 candidate haloes would help relieve the current tensions that exist in understanding the formation pathways for high-$z$ quasars. More generally, they could significantly modify the "initial mass function" of the earliest supermassive black holes.
 %ZH: added last sentence not to fully tie ourselves to the rare quasars.
