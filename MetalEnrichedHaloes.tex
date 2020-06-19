@@ -377,11 +377,12 @@ of their growth and accretion rate history.
 \caption{Same as Figures~\ref{Fig:Scatter}~and~\ref{Fig:HaloMass}, except
 the infall rates are plotted against  the stellar mass of each parent halo 
  As can be seen from the \textit{left panel}, the \rarepeak region has a large fraction of
-  extremely metal-poor and metal-free haloes residing in low stellar-mass haloes. A substantial
-  fraction of these haloes have high infall rates. 
-  The \textit{right panel} shows that the \normal region has significantly fewer extremely metal-poor haloes in this stellar-mass range.
-  Both regions show, as expected, that the EMP haloes have larger stellar masses.}
-\label{Fig:StellarMass}
+  metal-free haloes residing in low stellar-mass haloes. A substantial
+  fraction of these haloes have high infall rates. The extremely metal poor haloes tend to have
+  larger larger stellar masses and the metal-enriched haloes more stellar mass still as expected. 
+  The \textit{right panel} shows that the \normal region has significantly fewer metal-free haloes
+  but that they nonetheless populate the high mass infall region of the plot. }
+ \label{Fig:StellarMass}
 \end{center} \end{minipage}
 
 \end{figure*}
@@ -411,10 +412,10 @@ include green circles on the plot to indicate haloes which are metal-free and st
 Some results are immediately clear from a comparison of the panels in Figure~\ref{Fig:Scatter}.
 The \rarepeak region clearly has significantly more haloes that have lower
 metallicities (and/or are metal-free) and it also has more haloes
-with high infall rates. While this is true by number it is also true by fraction.
+with high infall rates. \jr{While this is true by number it is also true by fraction.
 For the \rarepeak region $\sim 25$\% are classified as EMP or metal-free compared to
 less than 15\% for the \normal region. The \rarepeak region is also characterised by a
-large by a large number of rapidly collapsing, EMP and metal-free haloes. 
+large number of rapidly collapsing, EMP and metal-free haloes. }
 The metal-free and star-free haloes (green circles) show a strong scatter and are not preferentially
 rapid accretors. However, the metal-free and star-free haloes do populate the lower-temperature parts of the
 phase space. This is because these haloes have no ongoing star formation (by definition) and so
@@ -422,17 +423,24 @@ the temperature of the gas is determined purely by the competition between gas c
 dynamical and compressional heating. The other EMP and metal-free haloes, especially those with gas temperatures
 close to T = $10^4$ K are being heated by ongoing star formation with atomic line
 cooling keeping the temperature close to, or slightly below, T = $10^4$ K. 
-The \normal region, as mentioned above, is dominated by metal-enriched haloes with over 85\% of haloes being metal-enriched.
+\jr{The \normal region, as mentioned above, is dominated by metal-enriched haloes with over 85\% of haloes being metal-enriched.
 Furthermore, the fraction of rapidly collapsing haloes is greatly diminished compared to the \rarepeak region. In the
-\normal region 10 \% are rapidly collapsing (dM/dt > 0.1 \msolaryrc) compared to 30 \% for the \rarepeak region.
+\normal region 10 \% are rapidly collapsing (dM/dt > 0.1 \msolaryrc) compared to 30 \% for the \rarepeak region.}
 
 In Figure~\ref{Fig:HaloMass} we plot the mass infall rate against the total (dark matter
 and gas) halo mass. In this representation the EMP and metal-free haloes are strongly clustered, in both
 the \rarepeak and \normal regions, at the atomic cooling limit (M$_{\rm atm} \sim 2 - 5 \times 10^7$
 \msolarc). This result is not surprising - once the atomic cooling limit is reached star formation
 will begin (if it hasn't already) and from that point onwards it is only a matter of time before
-the halo becomes metal enriched. Complementary to this is Figure~\ref{Fig:StellarMass}, 
-where we plot the mass infall rate against the stellar mass. In the left panel of Figure~\ref{Fig:StellarMass} we show the scatter/hexbin plot, coloured by metallicity, of the
+the halo becomes metal enriched. There is also a noticeable decline the infal rate towards high mass haloes.
+\jr{This can be explained through the natural halo merging process where due to the exponential form of the halo mass
+function smaller haloes are more populous than larger haloes. What we see in Figure \ref{Fig:HaloMass} is that mergers of smaller haloes
+into more massive haloes is driving high mass inflow rates for halos below approximately $10^{8}$ \msolarc. As we increase the mass
+scale the number (distribution) of haloes becomes smaller (larger) and hence the mass inflow rates decline. This point adds to
+the fact that haloes just transitioning into the atomic cooling regime are ideal sites for SMS formation. }
+Complementary to this is Figure~\ref{Fig:StellarMass}, 
+where we plot the mass infall rate against the stellar mass. In the left panel of Figure~\ref{Fig:StellarMass}
+we show the scatter/hexbin plot, coloured by metallicity, of the
 \rarepeak region. There is a large cluster of metal-free haloes, with $Z \lesssim 10^{-5}$ \zsolarc,
 with stellar masses of M$_{*} \lesssim 10^3$ \msolarc. These haloes formed PopIII
 according to the sub-grid PopIII star formation prescription with masses dictated 
@@ -441,12 +449,13 @@ haloes could also have formed SMSs had such a sub-grid prescription existed. The
 haloes are identified here however as their supernova have not yet fully enriched the 
 halo or the stars have not exploded yet. Allied to this 
 it should also be noted that this group of haloes also contain some of the highest mass infall
-rates. With increasing stellar mass the halo metal enrichement levels increase and most EMP haloes
-are found with stellar masses scattered between $10^{3}$ \msolar and $10^{6}$ \msolarc. Metal-free haloes
-do however have a bias towards higher mass infall rates. The \normal region contains significantly fewer metal-free haloes and
+rates. \jr{With increasing stellar mass the halo metal enrichement levels increase and most EMP haloes
+are found with stellar masses scattered between $10^{3}$ \msolar and $10^{6}$ \msolarc. The metal-free haloes
+do however have a bias towards higher mass infall rates compared to the EMP haloes.
+The \normal region contains significantly fewer metal-free haloes and
 similar to the \rarepeak region, the majority have stellar masses
 with M$_{*} \lesssim 10^3$ \msolarc. The overall trend however, while less pronounced than the \rarepeak region, is
-similar. 
+similar. \\}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE 4 (Histogram)%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure*}
 \centering
@@ -473,13 +482,12 @@ similar.
 
 \end{figure*}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-In summary, from Figures~\ref{Fig:Scatter}, \ref{Fig:HaloMass}
+\indent In summary, from Figures~\ref{Fig:Scatter}, \ref{Fig:HaloMass}
 and \ref{Fig:StellarMass} we see that there exists a sizeable minority of rapidly collapsing haloes
 which are metal-free ($Z < 10^{-5}$ \zsolarc). These
 haloes, due to their large mass infall rates, makes them strong candidates for supermassive
 star formation \citep{Woods_2018, Chon_2020}. However,  there exists an even larger population of
-rapidly collapsing, extremely metal-prro and metal enriched haloes. Some of these haloes could
+rapidly collapsing, extremely metal-poor and metal enriched haloes. Some of these haloes could
 potentially support SMS formation \citep[see e.g.][]{Chon_2020},
 provided the infall rate does not significantly decrease further inward; 
 and for the metal-enriched haloes if the metal mixing within the halo is inhomogeneous. We will discuss this point further in \S
@@ -488,7 +496,7 @@ and metal-enriched haloes in Figure \ref{Fig:Histogram}.
 
 \subsection{The abundance of metal-free, extremely metal-poor and metal-enriched haloes}
 In Figure~\ref{Fig:Histogram} we show the cumulative number of haloes with infall rates greater than
-the value given on the $x$-axis. The $x$-axis runs from
+the value given on the x-axis. The x-axis runs from
 $10^{-4}$ \msolaryr $\leq \dot{M}(R=20~{\rm pc}) \leq 10^{1}$ \msolaryrc. 
  The mass infall rate,
 $\dot{M}(R)$, is calculated as the volume averaged value within 20 pc of the centre for both the \rarepeak 
@@ -497,19 +505,20 @@ and \normal regions. The
 panel. Lines in each panel are coloured as follows: red lines are for metal-enriched haloes with
 metallicities ($Z > 10^{-3}$ \zsolarc), grey lines are for haloes with ($Z < 10^{-3}$ \zsolarc) and
 blue lines are for haloes with ($Z < 10^{-5}$ \zsolarc).\\
-\indent Concentrating first on the \rarepeak region, we see that there are a small number of
-haloes ($84$ or 2 \%) with mass infall rates greater than 1 \msolaryrc. Among these (very high-accreting)
+\indent \jr{Concentrating first on the \rarepeak region, we see that there are a small number of
+haloes ($84$ (2 \% of the total)) with mass infall rates greater than 1 \msolaryrc. Among these (very high-accreting)
 haloes most are either EMP or metal-free ($\sim 81$\%). However, what is also very relevant from this figure
 is the number of haloes that occupy the EMP range (i.e. difference in height between the
-blue and grey lines). If we instead focus on all haloes with mass infall rates exceeded 0.1
-\msolaryrc\footnote{As previously noted the mass accretion rate onto a protostar must exceed 0.04 \msolaryr
+blue and grey lines). If we focus on all haloes with mass infall rates
+exceeding\footnote{As previously noted the mass accretion rate onto a protostar must exceed 0.04 \msolaryr
   \cite{Sakurai_2016}, however, we choose a threshold here of 0.1 \msolaryr becuase we are measuring not the
-  stellar accretion rate but the central mass infall rate at 20 pc.} 
+  stellar accretion rate but the central mass infall rate at 20 pc.}  0.1
+\msolaryrc
 then acounting for EMP
-haloes increases the number of SMS candidates by a factor of 1.4 and allowing all metal-enriched haloes
+haloes this increases the number of SMS candidates by a factor of 1.4 and allowing all metal-enriched haloes
 with mass infall rates greater than 0.1 \msolaryr increases the number of SMS candidate haloes
 by more than a factor of 2.
-compared to the metal-free case. We will return to this point in \S \ref{Sec:Discussion} below. \\
+compared to the metal-free case.} We will return to this point in \S \ref{Sec:Discussion} below. \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE 5%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure*} [!t]
 \centering
@@ -536,7 +545,7 @@ compared to the metal-free case. We will return to this point in \S \ref{Sec:Dis
 \end{figure*}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \indent In the right panel of Figure~\ref{Fig:Histogram},
-we show the same histogram for the \normal region. In this case there are two metal-free halo
+we show the same histogram for the \normal region. \jr{In this case there are two metal-free halo
 and two EMP haloes with mass infall rates greater than 1 \msolaryr. There is only a single metal-enriched
 (with a metallicity value of 0.0015 \zsolarc)
 halo with the same mass infall rate. In the \normal region the haloes are dominated by metal-enriched haloes
@@ -545,15 +554,22 @@ On the face of it this suggests that the \normal region, similar to what was fou
 support only a small number of supermassive star candidates. However, again
 if we relax the criteria for supermassive star formation and consider also EMP and metal-enriched haloes
 then the number of possible candidate haloes can increase by more than a factor of 2 when we include EMP haloes
-and up to a factor of 4 when we include metal-enriched haloes. 
+and up to a factor of 4 when we include metal-enriched haloes. \\
+\indent In summary what we find is that by including EMP haloes, which \cite{Chon_2020} and
+\cite{Tagawa_2020} have recently found do support SMS formation, the number of SMS formation haloes
+can be increased by a factor of at least 2. Extending this further to include haloes
+with metallicities greater than $Z \sim 10^{3}$ \zsolar could potentially increase the number of
+SMS formation sites by a factor of up to 4 or more compared to the metal-free case. Alternatively,
+such rapidly collapsing haloes may provide the ideal environment to support the growth of light seed
+black holes \citep[e.g.][]{Alexander_2014, Inayoshi_2018}.}
 %in the \normal region when considering haloes with mass infall rates, $\dot{M} > 0.1 $ \msolaryrc. 
-Examining the number of \normal haloes with mass infall rates greater than 0.1 \msolaryr,
-we find that there are 160 metal-enriched haloes in this range.
-By comparison, there are 96 extremely metal-poor and 44 metal-free 
-haloes with mass infall rates  greater than 0.1 \msolaryrc.
-Hence, what we see is that the majority of rapidly collapsing haloes are metal-enriched
-and could potentially support SMS formation or 
-alternatively may supply a large baryon reservoir for a growing black hole. 
+%Examining the number of \normal haloes with mass infall rates greater than 0.1 \msolaryr,
+%we find that there are 160 metal-enriched haloes in this range.
+%By comparison, there are 96 extremely metal-poor and 44 metal-free 
+%haloes with mass infall rates  greater than 0.1 \msolaryrc.
+%Hence, what we see is that the majority of rapidly collapsing haloes are metal-enriched
+%and could potentially support SMS formation or 
+%alternatively may supply a large baryon reservoir for a growing black hole. 
 
 \subsection{The Most Rapid Accretors}
 \indent We next examine the ten most rapidly accreting haloes, when ranked independent of their metallicity, in both simulated regions.
@@ -574,7 +590,7 @@ has been found by \cite{Chon_2020} to be precluded to occur. Below this line SMS
 accretion rate is sufficient. Note also that each radial profile of each halo's  metallicity shows
 decreassing metallicity towards the centre of the halo. For some haloes this decrease is highly
 pronounced, particularly for the \normal region. These profiles give some evidence that metal
-mixing within haloes is likely to be somewhat inhomogeneous and incomplete. \\
+mixing within haloes is likely to be somewhat inhomogeneous and incomplete.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE 6%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure*}
 \centering
@@ -631,8 +647,9 @@ However, given that these galaxies have deeper potential wells and longer sound 
 the metal mixing can be gradual in some haloes but more rapid in others as was shown in Figure~\ref{Fig:RadialProfiles}.
 The \normal region haloes in the right hand panel show similar trends.
 The \normal region has no star-free haloes, with all haloes in this subset undergoing at
-least some star formation. In summary, the main takeaway is that there is a relatively even split
-between metal-enriched and EMP/metal-free haloes at the very highest mass infall-rates. 
+least some star formation.
+%In summary, the main takeaway is that there is a relatively even split
+%between metal-enriched and EMP/metal-free haloes at the very highest mass infall-rates. 
 
 \section{Discussion and Conclusions} \label{Sec:Discussion}
 
@@ -694,31 +711,32 @@ cooling haloes by their instantaneous mass infall rates, averaged within 20 pc o
   0.1 \msolaryrc. \rarepeak haloes are coloured in orange. \normal haloes in blue. 
   The majority of haloes in both cases are metal enriched and hence within
   those haloes pockets of extremely metal-poor gas 
-  is likely required, including on scales below those resolved here, for SMSs to form. The
-  ratio of metal-enriched to metal-free haloes is approximately 2:1 across both simulations.} \label{Fig:Fractions}
+  is likely required, including on scales below those resolved here, for SMSs to form. } \label{Fig:Fractions}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \indent We found that, as expected, there is a large number of haloes with
-very high central infall rates (see Fig.~\ref{Fig:Histogram}). At infall rates
+very high central infall rates (see Fig.~\ref{Fig:Histogram}). \jr{At infall rates
 greater than 1 \msolaryr the fraction of rapidly collapsing haloes are dominated by haloes with
 metallicitites less than $10^{-3}$ \zsolarc ($\sim 81$\%)
 In the \normal region there are very few haloes with mass
-infall rates exceeding 1 \msolaryr and again are dominated by haloes with
-metallicitites less than $10^{-3}$. Relaxing the
-mass infall criteria to 0.01 \msolaryr in both datasets,
+infall rates exceeding 1 \msolaryr and again they are dominated by haloes with
+metallicitites less than $10^{-3}$.} Relaxing the
+mass infall criteria to 0.1 \msolaryr in both datasets,
 we find that among these ``high-accreting''
 haloes, the majority are either metal-enriched ($Z > 10^{-3}$ \zsolarc) or
 extremely metal-poor ($10^{-5}$ \zsolar $ < Z < 10^{-3}$ \zsolarc). In Figure \ref{Fig:Fractions}
 we show the fraction of high accretion rate ($\dot{M} > 0.1$ \msolaryrc) haloes and
 their (gas phase) metallicities for haloes from both the \normal and \rarepeak regions.
-The \rarepeak haloes are displayed in orange, the \normal haloes in blue. For the \rarepeak
+The \rarepeak haloes are displayed in orange, the \normal haloes in blue. \jr{For the \rarepeak
 region the majority (62\%) are metal-enriched (i.e. $Z > 10^{-3}$ \zsolarc) with 38\% extremely
-metal-poor or metal-free. For the \normal region the fractions are very similar.
+metal-poor or metal-free. For the \normal region the fractions are very similar.}
 Since the \normal region represents a typical
 region of the Universe, the results for the \normal region can be assumed representative of 
 regions likely to be observed, at least by upcoming wide-field surveys (although not quite
-reaching yet the high redshifts probed in this study, e.g. Nancy Grace Roman Space Telescope and Euclid). \\
-\indent In the optimistic case, where all of these metal-enriched haloes support SMS formation, the boost to
+reaching yet the high redshifts probed in this study, e.g. Nancy Grace Roman Space Telescope and
+Euclid). \\
+\indent In the optimistic case, where all of these metal-enriched haloes support SMS formation, the
+boost to
 candidate haloes for SMS formation, compared to the metal-free case, can be increased by a factor of
 at least five. Some of these haloes may ultimately be shown through both  higher-resolution simulations
 and through adding additional physics (e.g. dust and gas opacity) 
@@ -734,14 +752,17 @@ formation. There are clear indications from our analysis of the radial metallici
 (see Figure \ref{Fig:RadialProfiles}) that metal mixing decreases strongly towards the halo centre.
 We also ran additional analysis of the SMS candidate haloes using a narrower prescription for the
 radius at which we calculate the accretion rates and the metallicity. Using a radius of 10 pc
-from the centre the number of EMP and metal-free haloes detected increases (to 35\% up from 28\%)
+from the centre the number of EMP and metal-free haloes detected increases to 58\% up from 28\%
 reflecting the strong metallicity gradient found in most haloes. 
-If this mixing inefficiency persists to smaller radii (which it appears to),
-then metal inhomogenitety may be common in the cores of these young proto-galaxies. The galaxies studied here are
-embryonic and have had very few dynamical times in which 
-gas mixing can take place and hence extremely metal-poor pockets are much more likely here than in more mature and evolved galaxies.\\
+If this mixing inefficiency persists to even smaller radii (which it appears to),
+then metal inhomogenitety may be common in the cores of these young proto-galaxies. The galaxies
+studied here are embryonic and have had very few dynamical times in which 
+gas mixing can take place and hence extremely metal-poor pockets are much more likely here than
+in more mature and evolved galaxies.\\
 \indent  The addition of extremely metal-poor and metal-enriched haloes to the number density of SMS
-candidate haloes would help relieve the current tensions that exist in understanding the formation pathways for high-$z$ quasars. More generally, they could significantly modify the ``initial mass function" of the earliest supermassive black holes.
+candidate haloes would help relieve the current tensions that exist in understanding the formation
+pathways for high-$z$ quasars. More generally, they could significantly modify the
+``initial mass function" of the earliest supermassive black holes.
 
 %====================================================================
 \section*{Acknowledgments}
