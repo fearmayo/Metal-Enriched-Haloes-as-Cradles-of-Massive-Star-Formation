@@ -92,7 +92,6 @@
 \maketitle
 
 \begin{abstract}
-%ZH: I made several cosmetic changes to the Abstract, you may want to re-read the whole thing.
   The formation of supermassive stars has generally been studied under the assumption of 
   rapid accretion of pristine metal-free gas. Recently it was suggested, however, that gas enriched
   to metallicities up to $Z \sim 10^{-3}$ \zsolar can also facilitate supermassive star formation,
@@ -146,14 +145,10 @@ concluded that the masses of the first stars were of the order of 100 \msolar \c
 masses but with a range into the hundreds of solar masses \citep{Stacy_2010, Stacy_2012, Stacy_2014,
   Hirano_2014,Hirano_2015}. A black hole born from such stars will have at most the same mass as the progenitor star and hence 
 limited to
-%the black hole seed will have a mass of somewhere in the region of 
-a few tens to a few hundred solar masses. These black holes are known as ``light seeds'' \citep[e.g.][]{Volonteri_2010a}, and will need to increase their mass by up to
-eight orders of magnitude within a several hundred million years if they are to grow to become a SMBH. Such
-a scenario has been shown to 
-%be exceedingly unlikely. 
-%ZH: changed this to:
-require substantial fine-tuning~\citep{Tanaka_2009,Tanaka_2012}.
-%
+a few tens to a few hundred solar masses. These black holes are known as ``light seeds'' \citep[e.g.][]{Volonteri_2010a},
+and will need to increase their mass by up to
+eight orders of magnitude within a few hundred million years if they are to grow to become a SMBH. Such
+a scenario has been shown to require substantial fine-tuning~\citep{Tanaka_2009,Tanaka_2012}.
 Black holes born from PopIII remnants exist
 in relic ionized regions that are warm and diffuse, inhospitable for growth
 \citep{Whalen_2004, Milosavljevic_2009, Alvarez_2009}. Furthermore, after these seeds are incorporated into galaxies,
@@ -218,9 +213,7 @@ In this scenario very high accretion rates onto embryonic protostars allows for 
 that a mean accretion rate above the critical value of 0.04 \msolaryr is required to create a SMS.
 If this accretion is maintained, the stellar atmosphere inflates and the star is bloated,
 causing the surface temperatures to drop to approximately 5000 K \citep{Hosokawa_2013, Woods_2017, Haemmerle_2017},
-%ZH: added this:
 thus avoiding the deleterious feedback effects from ionizing radiation.
-%
 In order to achieve the large required accretion rates, the general assumption has been
 that a metal-free atomic cooling halo is required, whose gas remains near its virial temperature of $\sim10^4$K.
 With the mass accretion rate onto the central regions of a halo scaling as $dM/dt \propto T^{3/2}$ \citep{Shu_1977}, such haloes would appear
@@ -250,22 +243,16 @@ and assign the following terms to halo metallicitites:
   has recently been investigated by \cite{Tagawa_2020} and \cite{Chon_2020}. \cite{Tagawa_2020}  utilised semi-analytic models, and showed that if the gas fragments at sufficiently high density ($\gtrsim {\rm few}\times 10^{10}~{\rm cm^{-3}}$), the central protostar avoids contraction and  grows via frequent mergers with other protostars into a $\sim 10^5-10^6~{\rm M_\odot}$ SMS. This represents a hybrid scenario between the collapse of a dense stellar cluster and the growth of a single SMS discussed above.
    \cite{Chon_2020} used high-resolution smoothed particle
   hydrodynamics simulations to investigate a similar scenario. They followed the cooling, contraction, and fragmentation of gas in the high-density core of a massive halo with a high gas inflow rate ($dM/dt=$1~\msolaryr).  They showed that even in cases where the gas metallicity is in the EMP range, SMSs still form. The formation pathway depends somewhat on metallicity: the growth of the SMS is dominated by gas accretion in the metal-free case, while mergers with other fragments become dominant as the metallicity approaches the upper limit of the EMP range. They found that SMS formation was prevented at the highest metallicity they studied, $Z=10^{-3}$ \zsolarc. However, at all lower metallicities, the end result is the same: the rapid growth of a massive central protostar, at an average rate of $\sim$1 \msolaryrc.
-  %with average accretion rates of approximately 0.1 \msolaryrc.
-  
-%ZH: I made this italics:
-Overall, the above suggests that {\em SMS formation in the dense core of an atomic halo is possible, even when it is has significant metallicity}, as long as the infall rate is high and fragmentation occurs at sufficiently high density.
-%
-%ZH: And, I added a "missing question":
+  Overall, the above suggests that {\em SMS formation in the dense core of an atomic halo is possible,
+    even when it is has significant metallicity}, as long as the infall rate is high and fragmentation occurs at sufficiently high density.
 This raises the question: {\em how many additional such haloes there are in the early universe, compared to metal-free haloes?}
 To assess the abundance and demography of such haloes at high redshift, we examine the outputs of the Renaissance Simulations
 and look for haloes that display rapid collapse, regardless of the metallicity of the halo.
 We examine rapidly accreting haloes across all redshifts and record their metallicities and other properties.
 Our analysis expands on similar earlier searches for supermassive star candidate haloes
-%ZH: I added Tremmel+ (search for DCBHs in Romulus sims) and Dunn+ to the list of citations below.   
 (e.g.,~\citealt{Habouzit_2016,Tremmel_2017,Dunn_2018,Wise_2019,Regan_2020}) into the regime of haloes that are enriched with
 metals, selecting candidates based on their infall rates, rather than on the requirement of being metal-free.
 
-%ZH: I made this into a new paragraph:
 This paper is organised as follows.
 In \S~\ref{Sec:RenaissanceDatasets}, we describe the datasets that comprise the Renaissance Simulations
 and our analysis methods.
@@ -284,10 +271,7 @@ formation and
 black hole formation \citep{WiseAbel_2011} as well as a detailed multi-species chemistry model that
 tracks the formation and evolution of nine species \citep{Anninos_1997, Abel_1997, Grackle}.
 Additionally the photo-dissociation of \molH is followed, which is a critical ingredient for
-determining the formation of the first metal-free stars 
-%ZH: changed this because I don't think Abel_2000 included H2-photodissociation.
-\citep{Haiman_2000}.
-%\citep{Abel_2000}. 
+determining the formation of the first metal-free stars \citep{Haiman_2000}.
 
 %For this reason we excluded the \void region from study here. 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE 2 (Hexbins)%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -361,8 +345,6 @@ that is calibrated with simulations, where $z$ is the redshift and $T_{\rm vir}$
 We tested other definitions \citep[e.g.][]{Bromm_2011} which give larger
 values by up to a factor of two or more. The number of metal-free haloes
 is very sensitive to the chosen value because it lies on the 
-%ZH: I changed below. it sounded strange, since low-mass tail is power-law, high-mass tail is exponential. 
-%low-mass 
 relatively rare
 exponential part of the halo mass function.
 We chose a value of the atomic limit consistent with previous work in the literature, and
@@ -517,8 +499,6 @@ provided the infall rate does not significantly decrease further inward;
 and for the metal-enriched haloes if the metal mixing within the halo is inhomogeneous. We will discuss this point further in \S
 \ref{Sec:Discussion}. First we quantify the relative abundance of metal-free, extremely metal-poor
 and metal-enriched haloes
-%ZH: I changed this since the figure is not described here, only in next sec:
-%in Figure \ref{Fig:Histogram}.
 in the next section.
 
 \subsection{The abundance of metal-free, extremely metal-poor and metal-enriched haloes}
@@ -722,10 +702,11 @@ In the case of higher metal enrichement,  $Z \gtrsim 10^{-3}$ \zsolar,
 and SMS formation is inhibited. However, there remains the possibility even in these
 metal-enriched haloes that pockets of metal-poor gas will remain in which SMS formation can occur.
 The topic of metal inhomogeneity was outside the scope of  \cite{Chon_2020} 
-but given that metal mixing has previously been shown to have very strong mixing gradients in the early universe
+but given that metal mixing has previously been shown to have very strong mixing gradients
+in haloes in the early universe
 \citep[e.g.][]{Smith_2015} this (metal-enriched) scenario warrants further research, similar to 
-what \cite{Tarumi_2020} have done in the context of stellar archaeology. \\
-%ZH: the above reference to Tarumi is not useful unless people know this Tarumi paper.   I suggest to either add a sentence to say what is in that paper, or else delete this mention.
+what \cite{Tarumi_2020} have done in the context of stellar archaeology where they looked at the
+difference in metal mixing between internally and externally enriched galaxies. \\
 \indent With this in mind, we included all rapidly collapsing haloes in our analysis, regardless of
 metallicity. To do this, we examined the Renaissance datasets, analysing
 both the \normal and \rarepeak regions. We analysed the simulation volumes and filtered atomic
