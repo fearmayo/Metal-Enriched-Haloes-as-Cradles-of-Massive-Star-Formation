@@ -228,7 +228,8 @@ baryonic streaming velocities
 \citep{Tseliakhovich_2010, Tanaka_2014, Hirano_2017, Schauer_2017}, collisions of massive
 proto-galaxies \citep{Mayer_2010, Mayer_2014, Inayoshi_2015} and finally dynamical heating caused
 by a succession of minor and major mergers \citep{Yoshida_2003a, Fernandez_2014, Wise_2019}. \\
-\indent The goal of the present study is to examine the role that metal enrichment in embryonic haloes may play in the
+\indent The goal of the present study is to examine the role that metal enrichment in embryonic
+haloes may play in the
 formation of SMSs. We adopt similar terminology from the existing literature
 on metal-poor stars \citep[e.g.][]{Frebel_2015}. \jr{Our definitions differ slightly from those of
 \cite{Frebel_2015} - particularly by including a ``metal-free'' category which is generally
@@ -241,9 +242,27 @@ absent when considering stellar metallicities.} We assign the following terms to
   is more appropriate in the present context.} $\equiv Z > 10^{-3}$ \zsolarc.
 \end{itemize}
   The formation of SMSs in haloes with metallicities in the EMP range
-  has recently been investigated by \cite{Tagawa_2020} and \cite{Chon_2020}. \cite{Tagawa_2020}  utilised semi-analytic models, and showed that if the gas fragments at sufficiently high density ($\gtrsim {\rm few}\times 10^{10}~{\rm cm^{-3}}$), the central protostar avoids contraction and  grows via frequent mergers with other protostars into a $\sim 10^5-10^6~{\rm M_\odot}$ SMS. This represents a hybrid scenario between the collapse of a dense stellar cluster and the growth of a single SMS discussed above.
-   \cite{Chon_2020} used high-resolution smoothed particle
-  hydrodynamics simulations to investigate a similar scenario. They followed the cooling, contraction, and fragmentation of gas in the high-density core of a massive halo with a high gas inflow rate ($dM/dt=1$~\msolaryrc).  They showed that even in cases where the gas metallicity is in the EMP range, SMSs still form. The formation pathway depends somewhat on metallicity: the growth of the SMS is dominated by gas accretion in the metal-free case, while mergers with other fragments become dominant as the metallicity approaches the upper limit of the EMP range. They found that SMS formation was prevented at the highest metallicity they studied, $Z=10^{-3}$ \zsolarc. However, at all lower metallicities, the end result is the same: the rapid growth of a massive central protostar, at an average rate of $\sim$1 \msolaryrc.\\
+  has recently been investigated by \cite{Tagawa_2020} and \cite{Chon_2020}. \cite{Tagawa_2020}
+  utilised semi-analytic models, and showed that if the gas fragments at sufficiently high
+  density ($\gtrsim {\rm few}\times 10^{10}~{\rm cm^{-3}}$), the central protostar avoids contraction
+  and grows via frequent mergers with other protostars into a $\sim 10^5-10^6~{\rm M_\odot}$ SMS.
+  This represents a hybrid scenario between the collapse of a dense stellar cluster and the
+  growth of a single SMS discussed above. \cite{Chon_2020} used high-resolution smoothed particle
+  hydrodynamics simulations to investigate a similar scenario. They followed the cooling,
+  contraction, and fragmentation of gas in the high-density core of a massive halo with a high
+  gas inflow rate ($dM/dt=1$~\msolaryrc). \jr{\cite{Chon_2020} investigate the effects of
+    both metallicity and dust in their simulations. The impact of
+    dust cooling is investigated using the prescription from \cite{Omukai_2008}, which operates
+    at gas number densities of $\rm{n_{gas} \gtrsim 10^{10} \ cm^{-3}}$. They find
+    that the impact of dust cooling does not extend to scales larger than a few hundred
+    au\footnote{Dust cooling is not included in the Renaissance simulations as we do reach densities
+      high enough to activate that cooling channel}}. Their overall findings are that the formation
+  pathway of massive stars depends strongly on metallicity: the growth of the SMS is dominated by
+  gas accretion in the metal-free case, while mergers with other fragments become dominant as
+  the metallicity approaches the upper limit of the EMP range. They found that SMS formation was
+  prevented at the highest metallicity they studied, $Z=10^{-3}$ \zsolarc. However, at all
+  lower metallicities, the end result is the same: the rapid growth of a massive central protostar,
+  at an average rate of $\sim$1 \msolaryrc.\\
   \indent Overall, the above suggests that {\em SMS formation in the dense core of an atomic halo is possible,
     even when it has significant metallicity}, as long as the infall rate is high and fragmentation occurs at sufficiently high density.
 This raises the question: {\em how many additional such haloes there are in the early universe, compared to metal-free haloes?}
@@ -513,20 +532,27 @@ similar. \\
 \end{figure*}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \indent \jr{In Figure \ref{Fig:BinnedMedianInfall} we show the median infall rate for all haloes as
-  a function of temperature, halo mass and stellar mass respectively. Within each panel the central infall
-  rates are further broken down according to metallicity. For each case the median
+  a function of temperature, halo mass and stellar mass respectively. Within each panel the central
+  infall rates are further broken down according to metallicity. For each case the median
 infall rate is calculated as the median infall rate within 20 pc of the halo centre. To plot the
-median of all haloes these median values are then binned against temperature, halo mass and stellar mass
-and the median of each bin again calculated. Haloes are futher subdivied by their metallicity as shown.
-In each case we see that the \rarepeak region has a near
-systematically higher infall rate relecting the more clustered environment of the \rarepeak region with mergers
-and halo interactions more common \citep{Wise_2019, Regan_2020}. However, what is also very noticeable is that
-the metal-free and EMP haloes have significantly higher central infall rates compared to the metal-enriched
-haloes. The high infall rates suppress early star formation with star formation only taking hold once the halo mass
-exceeds the atomic cooling limit (see middle panel). The high infall rate haloes cool in the centre due to
-\molH line cooling so their temperatures extend down to 1000 K or below. Many of these (high infall rate)
-haloes have small stellar masses peaking around $10^3$ \msolarc (see also Figure \ref{Fig:StellarMass}).
-Many of these are candidates for SMS formation. \\}
+median of all haloes these median values are then binned against temperature, halo mass and
+stellar mass and the median of each bin again calculated. Haloes are futher subdivied by their
+metallicity as shown. In each case we see that the \rarepeak region has a near
+systematically higher infall rate relecting the more clustered environment of the \rarepeak
+region with mergers and halo interactions more common \citep{Wise_2019, Regan_2020}. \\
+\indent However, what
+is also very noticeable is that the metal-free and EMP haloes have significantly higher central
+infall rates compared to the metal-enriched haloes. The high infall rates suppress early star
+formation with star formation only taking hold once the halo mass exceeds the atomic cooling limit
+(see middle panel). The high infall rate haloes cool in the centre due to
+\molH line cooling so their temperatures extend down to 1000 K or below. Many of these
+(high infall rate) haloes have small stellar masses peaking around $10^3$ \msolarc (see also
+Figure \ref{Fig:StellarMass}). A large number of these haloes, with high infall rates close to the
+atomic cooling limit, are strong candidates for SMS formation. It should also be noted that at
+higher halo masses (and stellar masses) that the different metallicity lines essentially converge.
+The higher halo masses have generally higher metallicities and stellar content. Within these haloes,
+if SMS formation is to be realised, inhomogeneous pockets of lower metallicity gas will be required.
+ \\}
 \indent In summary, from Figures~\ref{Fig:Scatter}, \ref{Fig:HaloMass}
 and \ref{Fig:StellarMass} we see that there exists a sizeable minority of rapidly collapsing haloes
 which are metal-free ($Z < 10^{-5}$ \zsolarc). These
